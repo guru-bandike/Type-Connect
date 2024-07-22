@@ -1,0 +1,87 @@
+:root {
+  --primary-background-color: #210440;
+  --secondary-background-color: #dddddd;
+}
+
+body {
+  background-color: var(--primary-background-color);
+}
+
+#onboarding {
+  color: white;
+}
+
+#chatroom {
+  margin-top: 5px;
+}
+
+#joinChat {
+  background-color: #ffba00;
+}
+
+#joinChat:hover {
+  background-color: #dea508;
+}
+
+.toast {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 1050;
+}
+
+.active-users-btn {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+#activeUsersCount {
+  background-color: rgba(147, 245, 0, 0.911);
+}
+
+.list-group-item {
+  font-weight: bold;
+  background-color: rgba(178, 232, 97, 0.911);
+  margin: 1px;
+}
+
+#chatMessages {
+  height: 84vh;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: black;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message-content {
+  background-color: var(--secondary-background-color);
+  padding: 10px;
+  border-radius: 5px;
+  line-break: anywhere;
+}
+
+.message-time {
+  font-size: 0.8em;
+  color: #6c757d;
+  margin-left: 10px;
+}
+
+#typingIndicator {
+  height: 20px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "typenconnect-chatapp",
+  "version": "1.0.0",
+  "description": "TypeNConnect is a real-time chat application that leverages socket programming to facilitate instant communication between users, providing a responsive and engaging messaging experience.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guru-bandike/TypeNConnect-ChatApp.git"
+  },
+  "author": "Guru Bandike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guru-bandike/TypeNConnect-ChatApp/issues"
+  },
+  "homepage": "https://github.com/guru-bandike/TypeNConnect-ChatApp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "socket.io": "^4.7.5"
+  }
+}
